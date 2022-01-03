@@ -34,10 +34,6 @@ body {
   background-image: linear-gradient(to bottom right, #af67e9, #6565e7);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   
 
 }
