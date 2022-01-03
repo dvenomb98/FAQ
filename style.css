@@ -35,6 +35,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
 }
 
 .topimage {
@@ -62,6 +67,8 @@ body {
   background-position-y: 8em,-15em;
   background-repeat: no-repeat;
   background-size: 30em, 60em;
+  flex-basis: 100%;
+   
 }
 
 .faq-textside {
