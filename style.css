@@ -1,0 +1,204 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 100%;
+  background-image: linear-gradient(to bottom right, #af67e9, #6565e7);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topimage {
+  background-image: url(../img/illustration-box-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 191px;
+  height: 184px;
+  position: absolute;
+  top: 17em;
+  left: 6.6em;
+}
+
+.faq-content {
+  font-size: 0.7em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: 10em 18em;
+  border-radius: 3em;
+  background-image: url(img/illustration-woman-online-desktop.svg), url(img/bg-pattern-desktop.svg);
+  background-position-x: -4em,-33em;
+  background-position-y: 8em,-15em;
+  background-repeat: no-repeat;
+  background-size: 30em, 60em;
+}
+
+.faq-textside {
+  flex-basis: 100%;
+  padding: 0em 8em 6em 0;
+}
+
+.faq-textside h1 {
+  font-size: 3em;
+  margin-top: 1em;
+  color: #1d1e35;
+}
+
+.textbox {
+  width: 100%;
+}
+
+.faq-text {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+  flex-direction: column;
+}
+
+.faq-text p {
+  display: none;
+  color: #787887;
+  line-height: 1.3em;
+  font-weight: 400;
+}
+
+.nadpis {
+  color: #4a4b5e;
+  cursor: pointer;
+}
+
+.nadpis h2 {
+  font-weight: 400;
+}
+
+.nadpis {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 5em;
+  border-bottom: 1px solid #e7e7e9;
+}
+
+.nadpis i {
+  color: #f47c57;
+}
+
+.nadpis:hover, .nadpis:focus {
+  color: #f47c57;
+}
+
+.off i:nth-child(2) {
+  display: none;
+}
+
+.off i:first-child {
+  display: block;
+}
+
+.on i:nth-child(2) {
+  display: block;
+}
+
+.on i:first-child {
+  display: none;
+}
+
+.faq-imgout {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 1075px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60%;
+  }
+  .faq-content {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20em 4em;
+    width: 280px;
+    border-radius: 3em;
+    text-align: left;
+  }
+  .faq-textside {
+    flex-basis: none;
+    padding: 2em 2em 5em;
+  }
+  .faq-textside h1 {
+    text-align: center;
+    padding-top: 3em;
+    margin-bottom: 0.5em;
+    margin-top: 1.5em;
+    font-size: 3.5em;
+  }
+  .faq-imgout {
+    display: none;
+  }
+  .nadpis {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2em;
+    border-bottom: 1px solid #e7e7e9;
+    text-align: left;
+  }
+  .faq-text {
+    padding: 2em 4em;
+  }
+  .faq-content {
+    background-image: url(img/bg-pattern-mobile.svg);
+    background-position-x: center;
+    background-position-y: 0.5em;
+    background-repeat: no-repeat;
+    background-size: 26em;
+  }
+  .topimage {
+    background-image: url(img/illustration-woman-online-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 20em;
+    width: 277px;
+    height: 200px;
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    margin-left: -14.3em;
+    outline: 3px solid red;
+  }
+}
