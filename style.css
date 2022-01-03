@@ -77,6 +77,10 @@ body {
 
 .textbox {
   width: 100%;
+
+}
+
+.textbox p {
   line-height: 1.2em;
 }
 
@@ -270,7 +274,7 @@ body {
   }
   .faq-content::before {
     content: "";
-    background-image: url(.img/illustration-woman-online-mobile.svg);
+    background-image: url(img/illustration-woman-online-mobile.svg);
     position: absolute;
     top: -11em;
     left: 0;
