@@ -57,7 +57,7 @@ body {
   align-items: center;
   margin: 10em 18em;
   border-radius: 3em;
-  background-image: url(../img/illustration-woman-online-desktop.svg), url(../img/bg-pattern-desktop.svg);
+  background-image: url(img/illustration-woman-online-desktop.svg), url(/img/bg-pattern-desktop.svg);
   background-position-x: -4em,-33em;
   background-position-y: 8em,-15em;
   background-repeat: no-repeat;
@@ -184,7 +184,7 @@ body {
     padding: 2em 2em;
   }
   .faq-content {
-    background-image: url(../img/bg-pattern-mobile.svg);
+    background-image: url(img/bg-pattern-mobile.svg);
     background-position-x: center;
     background-position-y: 0.5em;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ body {
   }
   .faq-content::before {
     content: "";
-    background-image: url(../img/illustration-woman-online-mobile.svg);
+    background-image: url(img/illustration-woman-online-mobile.svg);
     position: absolute;
     top: -11em;
     left: 0;
@@ -256,7 +256,7 @@ body {
     padding: 2em 2em;
   }
   .faq-content {
-    background-image: url(../img/bg-pattern-mobile.svg);
+    background-image: url(img/bg-pattern-mobile.svg);
     background-position-x: center;
     background-position-y: 0.5em;
     background-repeat: no-repeat;
@@ -268,7 +268,7 @@ body {
   }
   .faq-content::before {
     content: "";
-    background-image: url(../img/illustration-woman-online-mobile.svg);
+    background-image: url(img/illustration-woman-online-mobile.svg);
     position: absolute;
     top: -11em;
     left: 0;
